@@ -2,13 +2,6 @@
 
 Start-AdSyncSyncCycle –PolicyType Delta
 
-
 #Run this to force AzureAD sync on a different server:
 
 Invoke-Command -ComputerName <SERVER> -ScriptBlock { Start-ADSyncSyncCycle -PolicyType Delta }
-
-
-
-#Want to find out the full UPN of a user:
-
-Whoami /upn

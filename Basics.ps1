@@ -54,3 +54,6 @@ $Name = Read-Host "Please enter your name"
 Write-Host "Hello $($Name)"
 
 #Ideally, you should use unique variable names otherwise the variable will get overwritten by the newest one.
+
+#############################################################################################################################################
+
