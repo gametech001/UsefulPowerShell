@@ -41,6 +41,7 @@ Read-Host "Please enter your name"
 #############################################################################################################################################
 
 #All the above is good. But isn't actually usable in more advanced scripting and commands. For that, we need to use variables.
+#More info here: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.4
 
 #Variables use $ at the start and are followed by an = sign. Anything after the = sign is then used in the variable, whether that be text strings (needs to be in "") or another command/script.
 #Variables can be incorperated into all aspects of scripting for use later on in scripts or to output from the pipeline. For example:
