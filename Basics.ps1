@@ -10,6 +10,22 @@ This is not a comment. You try and run this and it will error out.
 
 #Need to quit a command or script whilst it is running? No problem, simply use Ctrl+C.
 
+#############################################################################################################################################
+
+#PowerShell uses cmdlets which consist of a verb-noun (e.g. write-hose).
+#More info here: https://learn.microsoft.com/en-us/powershell/scripting/powershell-commands?view=powershell-7.4
+
+#############################################################################################################################################
+
+#User Get-Help <cmdlet> to get more information about a cmdlet.
+
+Get-Help Get-Help
+Get-Help Get-ComputerInfo
+
+#More info here: https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system?view=powershell-7.4
+
+#############################################################################################################################################
+
 #This a simple command to output to the console. You put what ever text you want in the quotes:
 #More info here: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.4
 
@@ -55,4 +71,7 @@ $Name = Read-Host "Please enter your name"
 Write-Host "Hello $($Name)"
 
 #Ideally, you should use unique variable names to know what the variables do/are for and to prevent any issues down the line.
+
 #############################################################################################################################################
+
+#Want more basics? Try this: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/
