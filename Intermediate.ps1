@@ -30,3 +30,4 @@ Update-Module -Name PackageManagement
 #Select-Object
 #IfElse
 #Switch
+#Chaining
