@@ -1,3 +1,5 @@
+#Selection of useful commands and scripts:
+
 #Run this to force an AD Sync between on prem and O365. Only works on the server where AzureAD connect is installed.
 
 Start-AdSyncSyncCycle –PolicyType Delta
