@@ -22,7 +22,7 @@ Update-Module -Name PackageManagement
 
 #############################################################################################################################################
 
-#To do:
+#To do (in no particular order):
 
 #Profiles
 #Pipeline
@@ -30,4 +30,4 @@ Update-Module -Name PackageManagement
 #Select-Object
 #IfElse
 #Switch
-#Chaining
+#Chaining Comamnds
