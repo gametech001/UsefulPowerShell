@@ -2,7 +2,7 @@
 
 #############################################################################################################################################
 
-#Run this to force an AD Sync between on prem and O365. Only works on the server where AzureAD connect is installed.
+#Run this to force an AD Sync between on prem and O365. Only works on the server where AzureAD/Entra ID connect is installed (or whatever Microsoft call it this week).
 
 Start-AdSyncSyncCycle –PolicyType Delta
 
